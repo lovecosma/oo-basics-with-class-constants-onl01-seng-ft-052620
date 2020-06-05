@@ -10,7 +10,7 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
   def save
-    puts @genres
+    puts @genre
   end
 
 end
