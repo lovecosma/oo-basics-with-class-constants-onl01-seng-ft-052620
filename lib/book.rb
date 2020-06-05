@@ -11,7 +11,7 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
   def save
-    puts @genre
+    @@GENRES << self.genre
   end
 
 end
