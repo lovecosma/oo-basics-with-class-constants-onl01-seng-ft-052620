@@ -4,7 +4,7 @@ class Book
   GENRES = []
   def initialize(title)
     @title = title
-    save
+    
   end
 
   def turn_page
